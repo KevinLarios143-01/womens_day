@@ -1,0 +1,91 @@
+<div class="container">
+  <div class="hero-section">
+    <div class="heart-icon">🌼</div>
+    <h1 class="main-title">Evelyn</h1>
+    <p class="subtitle-special">Una Persona Especial</p>
+    <div class="divider">
+      <span>🐾</span>
+      <span>👶</span>
+      <span>🐾</span>
+    </div>
+  </div>
+
+  <div class="friendship-message">
+    <div class="message-card">
+      <h2>Una Persona Maravillosa</h2>
+      <p class="friendship-text">
+        Tu bondad y tu buen corazón son un regalo para quienes te conocemos. Admiro tu amor por los niños y los animales reflejan tu buen corazón. Eres una persona muy especial, y valoro profundamente tener tu amistad.
+      </p>
+      <div class="verse-special">
+        <p>"Jehová te bendiga, y te guarde; Jehová haga resplandecer su rostro sobre ti, y tenga de ti misericordia."</p>
+        <span class="verse-ref-special">Números 6:24-25</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="virtues">
+    <div class="virtue-card">
+      <div class="virtue-icon">❤️</div>
+      <h3>Buen Corazón</h3>
+      <p>Tu bondad es genuina</p>
+    </div>
+    <div class="virtue-card">
+      <div class="virtue-icon">🌸</div>
+      <h3>Ternura</h3>
+      <p>Tu dulzura toca vidas</p>
+    </div>
+    <div class="virtue-card">
+      <div class="virtue-icon">👶</div>
+      <h3>Amor por los Niños</h3>
+      <p>Tu cariño es especial</p>
+    </div>
+    <div class="virtue-card">
+      <div class="virtue-icon">🐾</div>
+      <h3>Amor por los Animales</h3>
+      <p>Tu compasión no tiene límites</p>
+    </div>
+    <div class="virtue-card">
+      <div class="virtue-icon">✨</div>
+      <h3>Atenta</h3>
+      <p>Siempre pendiente de los demás</p>
+    </div>
+    <div class="virtue-card">
+      <div class="virtue-icon">🌟</div>
+      <h3>Buena Persona</h3>
+      <p>Tu carácter es admirable</p>
+    </div>
+  </div>
+
+  <div class="gallery-title">
+    <h2>Momentos Inolvidables</h2>
+    <p>Recuerdos que atesoro</p>
+  </div>
+
+  <div class="gallery">
+    @for (photo of photos; track photo; let i = $index) {
+      <div class="photo-card" [style.animation-delay.s]="i * 0.1">
+        <div class="photo-frame">
+          <img [src]="photo" [alt]="'Foto de Evelyn'">
+        </div>
+      </div>
+    }
+  </div>
+
+  <div class="final-blessing">
+    <div class="blessing-content">
+      <div class="quote-mark">"</div>
+      <p class="blessing-text">Toda buena dádiva y todo don perfecto desciende de lo alto, del Padre de las luces.</p>
+      <p class="blessing-verse">Santiago 1:17</p>
+      <div class="quote-mark closing">"</div>
+    </div>
+    <div class="friendship-declaration">
+      <p class="declaration-text">Que Dios siga bendiciendo tu vida y tu hermoso corazón.</p>
+      <p class="declaration-verse">Gracias por ser una persona tan especial en mi vida.</p>
+      <div class="flowers">
+        <span>🌼</span>
+        <span>🌸</span>
+        <span>🌼</span>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,83 @@
+<div class="container">
+  <div class="hero-section">
+    <div class="crown">👑</div>
+    <h1 class="main-title">Evelyn</h1>
+    <p class="subtitle-special">Mi Mujer Virtuosa</p>
+    <div class="heart-divider">
+      <span>💕</span>
+      <span>✨</span>
+      <span>💕</span>
+    </div>
+  </div>
+
+  <div class="love-message">
+    <div class="message-card">
+      <h2>Para la Mujer de Mi Vida</h2>
+      <p class="love-text">
+        Eres el regalo más hermoso que Dios ha puesto en mi camino. En tu mirada encuentro paz, en tu sonrisa hallo alegría, 
+        y en tu corazón descubro un amor que ilumina mis días. Tu cariño, tu fortaleza y tu fe son el reflejo de la gracia divina. 
+        Eres más preciosa que las piedras preciosas, y cada momento a tu lado es un tesoro que guardo en mi corazón.
+      </p>
+      <div class="verse-special">
+        <p>"Fuerza y honor son su vestidura; y se ríe de lo por venir."</p>
+        <span class="verse-ref-special">Proverbios 31:25</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="qualities">
+    <div class="quality-card">
+      <div class="quality-icon">💪</div>
+      <h3>Fortaleza</h3>
+      <p>Tu fuerza me sostiene</p>
+    </div>
+    <div class="quality-card">
+      <div class="quality-icon">❤️</div>
+      <h3>Cariño</h3>
+      <p>Tu cariño es mi refugio</p>
+    </div>
+    <div class="quality-card">
+      <div class="quality-icon">🙏</div>
+      <h3>Fe</h3>
+      <p>Tu fe ilumina mi camino</p>
+    </div>
+    <div class="quality-card">
+      <div class="quality-icon">✨</div>
+      <h3>Gracia</h3>
+      <p>Tu gracia me cautiva</p>
+    </div>
+  </div>
+
+  <div class="gallery-title">
+    <h2>Momentos Inolvidables</h2>
+    <p>Cada foto es un verso de nuestra historia</p>
+  </div>
+
+  <div class="gallery">
+    @for (photo of photos; track photo; let i = $index) {
+      <div class="photo-card" [style.animation-delay.s]="i * 0.1">
+        <div class="photo-frame">
+          <img [src]="photo" [alt]="'Foto de Evelyn'">
+        </div>
+      </div>
+    }
+  </div>
+
+  <div class="final-blessing">
+    <div class="blessing-content">
+      <div class="quote-mark">"</div>
+      <p class="blessing-text">Contigo he encontrado el amor que mi corazón anhelaba, y quien me ama también me alaba.</p>
+      <p class="blessing-verse">Inspirado en Proverbios 31:28</p>
+      <div class="quote-mark closing">"</div>
+    </div>
+    <div class="love-declaration">
+      <p class="declaration-text">En ti encuentro la respuesta a mis oraciones, el complemento perfecto que mi alma buscaba.</p>
+      <p class="declaration-verse">Proverbios 31:29</p>
+      <div class="hearts">
+        <span>💝</span>
+        <span>💖</span>
+        <span>💝</span>
+      </div>
+    </div>
+  </div>
+</div>

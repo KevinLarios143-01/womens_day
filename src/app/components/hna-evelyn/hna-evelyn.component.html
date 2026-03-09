@@ -1,0 +1,82 @@
+<div class="container">
+  <div class="hero-section">
+    <div class="heart-icon">💝</div>
+    <h1 class="main-title">Hermana Evelyn</h1>
+    <p class="subtitle-special">Mujer de Compasión y Servicio</p>
+    <div class="divider">
+      <span>🌺</span>
+      <span>💕</span>
+      <span>🌺</span>
+    </div>
+  </div>
+
+  <div class="respect-message">
+    <div class="message-card">
+      <h2>Una Mujer de Buen Corazón</h2>
+      <p class="respect-text">
+        Su compasión hacia los demás y su corazón generoso son un reflejo del amor de Cristo. 
+        Su servicio constante y su disposición para ayudar son un testimonio vivo de fe. 
+        Es un honor conocer a alguien con un corazón tan noble.
+      </p>
+      <div class="verse-special">
+        <p>"El Señor te bendiga desde Sion, y veas el bien todos los días de tu vida."</p>
+        <span class="verse-ref-special">Salmos 128:5</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="virtues">
+    <div class="virtue-card">
+      <div class="virtue-icon">❤️</div>
+      <h3>Buen Corazón</h3>
+      <p>Su bondad toca vidas</p>
+    </div>
+    <div class="virtue-card">
+      <div class="virtue-icon">🤲</div>
+      <h3>Servicio</h3>
+      <p>Siempre dispuesta a ayudar</p>
+    </div>
+    <div class="virtue-card">
+      <div class="virtue-icon">🌸</div>
+      <h3>Compasión</h3>
+      <p>Su empatía es genuina</p>
+    </div>
+    <div class="virtue-card">
+      <div class="virtue-icon">✨</div>
+      <h3>Generosidad</h3>
+      <p>Da sin esperar nada</p>
+    </div>
+  </div>
+
+  <div class="gallery-title">
+    <h2>Galería</h2>
+  </div>
+
+  <div class="gallery">
+    @for (photo of photos; track photo; let i = $index) {
+      <div class="photo-card" [style.animation-delay.s]="i * 0.1">
+        <div class="photo-frame">
+          <img [src]="photo" [alt]="'Foto de Hna Evelyn'">
+        </div>
+      </div>
+    }
+  </div>
+
+  <div class="final-blessing">
+    <div class="blessing-content">
+      <div class="quote-mark">"</div>
+      <p class="blessing-text">Jehová bendiga tu generosidad y multiplique tu bondad.</p>
+      <p class="blessing-verse">Inspirado en Proverbios 11:25</p>
+      <div class="quote-mark closing">"</div>
+    </div>
+    <div class="respect-declaration">
+      <p class="declaration-text">Que Dios siga bendiciendo su vida.</p>
+      <p class="declaration-verse">Gracias por ser un ejemplo de amor y servicio para todos nosotros.</p>
+      <div class="flowers">
+        <span>🌺</span>
+        <span>💐</span>
+        <span>🌺</span>
+      </div>
+    </div>
+  </div>
+</div>

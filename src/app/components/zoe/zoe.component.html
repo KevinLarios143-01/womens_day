@@ -1,0 +1,82 @@
+<div class="container">
+  <div class="hero-section">
+    <div class="star-icon">⭐</div>
+    <h1 class="main-title">Zoe</h1>
+    <p class="subtitle-special">Mujer de Valor</p>
+    <div class="divider">
+      <span>🌟</span>
+      <span>💫</span>
+      <span>🌟</span>
+    </div>
+  </div>
+
+  <div class="appreciation-message">
+    <div class="message-card">
+      <h2>Una Mujer de Valor</h2>
+      <p class="appreciation-text">
+        Tu dedicación y esfuerzo son un ejemplo para todos. Como tu líder y como amigo, he visto tu crecimiento 
+        y compromiso con la obra del Señor. Tu valentía y perseverancia inspiran a quienes te rodean.
+      </p>
+      <div class="verse-special">
+        <p>"Jehová te bendiga, y te guarde; Jehová haga resplandecer su rostro sobre ti."</p>
+        <span class="verse-ref-special">Números 6:24-25</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="virtues">
+    <div class="virtue-card">
+      <div class="virtue-icon">💪</div>
+      <h3>Valentía</h3>
+      <p>Enfrentas los retos con fe</p>
+    </div>
+    <div class="virtue-card">
+      <div class="virtue-icon">✨</div>
+      <h3>Dedicación</h3>
+      <p>Tu compromiso es constante</p>
+    </div>
+    <div class="virtue-card">
+      <div class="virtue-icon">🙏</div>
+      <h3>Servicio</h3>
+      <p>Sirves con alegría</p>
+    </div>
+    <div class="virtue-card">
+      <div class="virtue-icon">🌟</div>
+      <h3>Perseverancia</h3>
+      <p>No te rindes fácilmente</p>
+    </div>
+  </div>
+
+  <div class="gallery-title">
+    <h2>Momentos Especiales</h2>
+    <p>Recuerdos de nuestra comunidad</p>
+  </div>
+
+  <div class="gallery">
+    @for (photo of photos; track photo; let i = $index) {
+      <div class="photo-card" [style.animation-delay.s]="i * 0.1">
+        <div class="photo-frame">
+          <img [src]="photo" [alt]="'Foto de Zoe'">
+        </div>
+      </div>
+    }
+  </div>
+
+  <div class="final-blessing">
+    <div class="blessing-content">
+      <div class="quote-mark">"</div>
+      <p class="blessing-text">El Señor te bendiga y te prospere en todo lo que hagas.</p>
+      <p class="blessing-verse">Inspirado en Deuteronomio 28:8</p>
+      <div class="quote-mark closing">"</div>
+    </div>
+    <div class="appreciation-declaration">
+      <p class="declaration-text">Que Dios siga bendiciendo tu vida y tu servicio.</p>
+      <p class="declaration-verse">Gracias por tu esfuerzo y dedicación en la obra del Señor.</p>
+      <div class="stars">
+        <span>⭐</span>
+        <span>🌟</span>
+        <span>⭐</span>
+      </div>
+    </div>
+  </div>
+</div>
