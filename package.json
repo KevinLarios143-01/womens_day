@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:ssr": "ng build && ng run dia-mujer:server",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:dia-mujer": "node dist/dia-mujer/server/server.mjs"
